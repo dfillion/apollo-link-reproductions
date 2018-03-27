@@ -15,9 +15,12 @@
     "react-dom": "16.2.0",
     "react-scripts": "1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  },
   "scripts": {
     "start": "react-scripts start",
+    "compile": "tsc src/index.tsx --jsx react --lib dom,es6",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
